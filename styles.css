@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+
+h1 {
+  color: black;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 8vh;
+  text-transform: uppercase;
+  border-bottom: .75vh solid #E55934;
+  margin-top: 0;
+  margin-bottom: .33vh;
+}
+
+h2 {
+  color: black;
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 4vh;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+p {
+  color: black;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 3.75vh;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  background: #333333;
+  width: 20vh;
+  height: 100%;
+  color: black;
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 4vh;
+}
+
+.sidebar>* {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-button {
+  border: none;
+  color: white;
+  margin-top: 5vh;
+}
+
+.sidebar>*:last-child,
+.sidebar>*:nth-last-child(2) {
+  margin-top: auto;
+  width: 50%;
+  margin-bottom: 1vh;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 100fr;
+  overflow: hidden;
+}
+
+.content {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.screen {
+  display: flex;
+  height: 100vh;
+}
+
+#one {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#two {
+  background-color: white;
+}
+
+#three {
+  background-color: white;
+}
+
+#four {
+  background-color: white;
+}
+
+#five {
+  background-color: white;
+}
+
+.image {
+  height: 60vh;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  height: 5.5vh;
+  width: 5.5vh;
+  margin-top: .5vh;
+  margin-bottom: .5vh;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#midleft {
+  display: inherit;
+  flex-direction: column;
+}
+
+#midright {
+  display: inherit;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.cont {
+  padding: 2px 16px;
+}
