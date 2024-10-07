@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 html,
 body {
@@ -10,14 +10,12 @@ body {
   overflow: hidden;
 }
 
-
 h1 {
   color: black;
   font-family: "Inter";
-  font-weight: 700;
-  font-size: 8vh;
-  text-transform: uppercase;
-  border-bottom: .75vh solid #E55934;
+  font-weight: 300;
+  font-size: 5vh;
+  border-bottom: .33vh solid;
   margin-top: 0;
   margin-bottom: .33vh;
 }
@@ -29,15 +27,21 @@ h2 {
   font-size: 4vh;
   margin-top: 0;
   margin-bottom: 5px;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-family: "Inter";
+  font-weight: 350;
+  font-size: 3vh;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 p {
   color: black;
   font-family: 'Inter';
-  font-weight: 400;
-  font-size: 3.75vh;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .container {
@@ -50,7 +54,7 @@ p {
 .sidebar {
   display: flex;
   flex-wrap: wrap;
-  background: #333333;
+  background: white;
   width: 20vh;
   height: 100%;
   color: black;
@@ -67,8 +71,11 @@ p {
 
 .sidebar-button {
   border: none;
-  color: white;
+  font: "Inter Tight";
+  color: black;
   margin-top: 5vh;
+  font-size: 3vh;
+  text-align: center;
 }
 
 .sidebar>*:last-child,
@@ -90,11 +97,24 @@ p {
 }
 
 .screen {
-  display: flex;
   height: 100vh;
 }
 
+.introbox {
+  width: 70vh;
+  text-align: center;
+}
+
+.workbox {
+  width: 33vh;
+  text-align: left;
+  margin-top: 5vh;
+  margin-left: 2.5vh;
+  margin-right: 2.5vh;
+}
+
 #one {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -103,6 +123,11 @@ p {
 
 #two {
   background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  padding-top: 10vh;
 }
 
 #three {
@@ -115,6 +140,41 @@ p {
 
 #five {
   background-color: white;
+}
+
+#experience {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: center;
+}
+
+#worktext {
+  font-weight: 300;
+  font-size: 2vh;
+  margin-top: .5vh;
+  margin-bottom: .5vh;
+}
+
+#titletext {
+  font-weight: 300;
+  font-size: 2.5vh;
+  margin-top: .5vh;
+  margin-bottom: .5vh;
+}
+
+#datetext {
+  font-weight: 300;
+  font-size: 2vh;
+  margin-top: .5vh;
+  margin-bottom: .5vh;
+}
+
+#introtext {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 3vh;
 }
 
 .image {
